@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+@extends('layouts.master')
 
-    <nav> 
-        <a href="/">beranda</a>
-        <a href="/profile">profile</a>
-    </nav>
+@section('content')
+<div class="alert alert-primary" role="alert">
+	Selamat datang di halaman beranda
+</div>
 
-    <p>welcomeee </p>
-</body>
-</html>
+@endsection
